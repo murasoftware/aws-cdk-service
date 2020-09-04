@@ -1,8 +1,8 @@
 {
-  "name": "hello_world_service",
+  "name": "aws_cdk_example_service",
   "version": "0.1.0",
   "bin": {
-    "hello_world_service": "bin/hello_world_service.js"
+    "service": "bin/service.js"
   },
   "scripts": {
     "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",

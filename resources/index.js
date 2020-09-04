@@ -8,7 +8,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/calling-services-asynchronously.html
 https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html 
 */
-exports.main = async function(event, context) {
+exports.handler = async function(event, context) {
   try {
     var method = event.httpMethod;
 
