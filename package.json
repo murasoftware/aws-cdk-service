@@ -1,0 +1,20 @@
+{
+  "name": "hello_world_service",
+  "version": "0.1.0",
+  "bin": {
+    "hello_world_service": "bin/hello_world_service.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.61.1",
+    "aws-cdk": "1.61.1",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.61.1"
+  }
+}
