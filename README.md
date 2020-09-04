@@ -1,6 +1,6 @@
 # Welcome to your CDK Serverless project!
 
-This is a example project for JavaScript development with CDK to deploy a Lambda behind a API Gateway
+This is a example project for JavaScript development with CDK to deploy a Lambda behind an API Gateway
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
 
