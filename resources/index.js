@@ -9,15 +9,17 @@ https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/calling-servic
 https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html 
 */
 exports.handler = async function(event, context) {
+
   try {
-    var method = event.httpMethod;
+    const method = event.httpMethod;
 
     if (method === "GET") {
       if (event.path === "/") {
      
-        var body = {
-          message: "Hello there!"
+        const body = {
+          message: 'Hello from your custom service'
         };
+
         return {
           statusCode: 200,
           headers: {},
@@ -33,7 +35,7 @@ exports.handler = async function(event, context) {
       body: "We only accept GET /"
     };
   } catch(error) {
-    var body = error.stack || JSON.stringify(error, null, 2);
+    const body = error.stack || JSON.stringify(error, null, 2);
     return {
       statusCode: 400,
         headers: {},
